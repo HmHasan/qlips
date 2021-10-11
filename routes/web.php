@@ -19,3 +19,4 @@ Route::get('/', function () {
 });
 
 Route::get("/login",[TestController::class,"login"])->name("login");
+Route::get("/topic",[TestController::class,"topics"])->name("topics");

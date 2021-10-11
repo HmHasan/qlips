@@ -10,4 +10,8 @@ class TestController extends Controller
     public function login(){
         return View("auth.login");
     }
+
+    public function topics(){
+        return View("pages.topics");
+    }
 }
